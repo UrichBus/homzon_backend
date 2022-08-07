@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_order_info_shipping_addresses",
+  "info": {
+    "displayName": "shippingAddress",
+    "icon": "bus"
+  },
+  "options": {},
+  "attributes": {
+    "address": {
+      "type": "text",
+      "required": true
+    },
+    "country": {
+      "type": "string",
+      "required": true
+    },
+    "state": {
+      "type": "string",
+      "required": true
+    },
+    "postalCode": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_order_info_customers",
+  "info": {
+    "displayName": "customer",
+    "icon": "baby"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "customerId": {
+      "type": "integer"
+    }
+  }
+}

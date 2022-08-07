@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_order_info_products",
+  "info": {
+    "displayName": "products",
+    "icon": "baby-carriage",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "quantity": {
+      "type": "integer"
+    },
+    "amount": {
+      "type": "decimal"
+    }
+  }
+}
